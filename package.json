@@ -1,0 +1,35 @@
+{
+  "name": "levenshtein-benchmark",
+  "description": "Simple benchmark for levenshtein using real-life data",
+  "version": "1.0.0",
+  "author": "Andreas Madsen <amwebdk@gmail.com>",
+  "main": "./index.js",
+   "scripts": {
+    "test": "node execute.js"
+  },
+  "repository" : {
+    "type": "git",
+    "url": "git://github.com/AndreasMadsen/levenshtein-benchmark.git"
+  },
+  "keywords": [
+    "levenshtein",
+    "benchmark"
+  ],
+  "dependencies": {
+    "async": "0.2.x",
+    "summary": "0.3.x"
+  },
+  "devDependencies": {
+    "progress": "1.1.x",
+  	"editdistance": "*",
+    "levenshtein": "*",
+    "fast-levenshtein": "*",
+    "natural": "*",
+    "levenshtein-component": "*",
+    "levenshtein-edit-distance": "*",
+    "leven": "*",
+    "levdist": "*",
+    "ld": "*"
+  },
+  "license": "MIT"
+}
